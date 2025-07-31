@@ -19,7 +19,10 @@ The standardised approach capital requirement is the aggregation of three charge
 
 In this project, we generated a hypothetical, yet realistic trading book comprising 500 trading positions for differentiated flavours of asset classes. BCBS asserts that a fundamental premise of the standardised approach for market risk is that a bank's pricing model employed in actual profit and loss reporting serves as a suitable foundation for establishing regulatory capital requirements for all market risks.  To that end, we assume that the generated trading sensitivities are computed based on prudent valuation practices:
 
-
+![Trading_book_sensitivities](Trading_book_sensitivities.png)
+![Notional_vs_vega](Notional_vs_vega.png)
 
 
 We then developed a prototype FRTB engine based on the methodology, risk weights, buckets, and other parameters as stipulated by the BCBS. Our simulated trading book was then input into the engine to compute the total capital charge. The results are depicted below:
+
+![FRTB Capital Requirement](FRTB_Capital_Requirement.png)
